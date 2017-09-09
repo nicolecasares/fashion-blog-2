@@ -1,0 +1,210 @@
+/*font-family: 'Montserrat', sans-serif;*/
+body{
+  background: #dbdad6;
+}
+
+/*styles in the img make the images more responsive in diffrent sizes*/
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+nav{
+	background: transparent;
+
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: 0px;
+
+}
+.navbar-default {
+    background-color: transparent;
+    border: 0;
+    color: white;
+    float: right;
+}
+
+.navbar-brand{
+	/*isibility: visible;*/
+	margin-top: ;
+	display: inline;
+	color: black;
+	font-family: 'Playfair Display', serif;
+	color: black;
+
+}
+
+.navbar-default .navbar-brand{
+	color: black;
+	font-size: 22px;
+}
+
+
+.navbar-toggle{
+	border: none;
+}
+
+
+#nav-color {
+	color: black;
+}
+
+
+nav a .nav-item {
+	text-align: right;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+}
+
+nav a:hover {
+	text-align: right;
+	font-family: 'Raleway', sans-serif;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border: 0;
+    color: white;
+    position: fixed;
+    z-index: 99;
+    background: white;
+    min-width: 100%;
+    top: 0;
+    font-family: 'Raleway', sans-serif;
+
+ }
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #064d8a;
+}
+
+.ghost-botton {
+	border: 1px white solid;
+	padding: 3px;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #bca64d; 
+}
+
+
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+	background: #103341;
+
+
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: black;
+}
+
+/*These are styles for the header*/
+
+.text-center{
+	text-align: center;
+
+
+}
+
+nav h1{
+	/*margin-top: 10%;*/
+	/*position: relative;*/
+	margin-top: ;
+	display: inline;
+	color: black;
+	font-family: 'Playfair Display', serif;
+
+
+}
+
+
+/*These are stryles for masonry*/
+
+.grid {
+	margin: 3% 15%;
+}
+
+.grid-item { 
+	width: 200px; 
+}
+
+.grid-item--width2 { 
+	width: 400px; 
+}
+
+
+img {
+	max-width: 100%;
+}
+
+/*these are the styles for main section*/
+
+main{
+	margin: 3% 15%;
+	background: white;
+	padding: 5% 10%;
+}
+
+main h1{
+	margin-bottom: 4%;
+	color: black;
+	font-family: 'Playfair Display', serif;
+
+
+}
+
+main h2{
+	font-family: 'Playfair Display', serif;
+	color: #064d8a;
+	font-size: 22px;
+
+}
+
+main p{
+	font-family: 'Raleway', sans-serif;
+	line-height: 2em;
+
+}
+
+.author {
+	margin-bottom: 4%;
+}
+
+/*these are the styles for the bio*/
+
+.author-bio {
+	background: white;
+	margin: 3% 15%;
+	font-family: 'Raleway', sans-serif;
+	line-height: 2em;
+	padding: 3% 10%;
+}
+
+/*these are the style for the footer*/
+
+footer{
+	background: white;
+	padding: 3% 10%;
+}
+
+footer a {
+	display: inline;
+	margin: 0 .5%;
+	color: #064d8a;
+}
+
+footer a i{
+	margin: 0 2%;
+}
+
+@media (min-width: 700px) {
+/*	.navbar-brand{
+	visibility: hidden;*/
+
+}
+
+}
+
+
